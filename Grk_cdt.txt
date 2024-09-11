@@ -1,0 +1,33 @@
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
+
+OrionLib:MakeNotification({
+      Name = "Grk-cdt专属",
+      Content = "666",
+      Time = 2.5 })
+
+local Window = OrionLib:MakeWindow({Name = "强强强😡", HidePremium = false, SaveConfig = false, IntroText = "Grk无敌", ConfigFolder = "."})
+
+local Tab =Window:MakeTab({
+	Name = "分类区",
+	Icon = "rbxassetid://17379459408",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "cdt-刷星星脚本",
+	Callback = function() 	
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/F347-FB/Roblox/main/Loader"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "cdt-比赛Race脚本",
+	Callback = function() 	
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/car%20dealer", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "cdt-f3x模块",
+	Callback = function() 	
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/TigerX-V2/main/Back"))()
+  	end    
+})
