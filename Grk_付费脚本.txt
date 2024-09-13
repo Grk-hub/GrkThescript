@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Key = "" -- 设置你的卡密!
+local Key = "114514" -- 设置你的卡密!
 
 local function onSuccess()
     print("功能加载完成")
@@ -49,7 +49,7 @@ local KeySection = Tab:AddSection({
 
 Tab:AddTextbox({
     Name = "输入卡密", 
-    Default = "Grkscript114514",
+    Default = "",
     TextDisappear = true,
     Callback = verifyKey
 })
